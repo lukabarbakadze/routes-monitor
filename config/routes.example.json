@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "id": "R01",
+      "name": "Example Route Southbound",
+      "origin": {"lat": 41.748109, "lng": 44.773678},
+      "destination": {"lat": 41.675211, "lng": 44.833257}
+    },
+    {
+      "id": "R02",
+      "name": "Example Route Northbound",
+      "origin": {"lat": 41.675211, "lng": 44.833257},
+      "destination": {"lat": 41.748109, "lng": 44.773678}
+    }
+  ]
+}
