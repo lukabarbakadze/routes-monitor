@@ -24,4 +24,4 @@ data/
 Thumbs.db
 
 # Project specific
-config/routes.json
+# config/routes.json
