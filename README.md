@@ -5,8 +5,8 @@ Traffic monitoring tool using Google Routes API v2. Tracks travel times and dela
 ## Setup
 
 ```bash
-# Install
-pip install -e .
+# Install dependencies
+pip install -r requirements.txt
 
 # Configure API keys (copy and edit)
 cp .env.example .env
@@ -19,10 +19,10 @@ cp config/routes.example.json config/routes.json
 
 ```bash
 # Run with defaults
-routes-monitor
+python -m routes_monitor.cli
 
 # Custom config
-routes-monitor -c config/my_routes.json -o data/my_city
+python -m routes_monitor.cli -c config/my_routes.json -o data/my_city
 ```
 
 ## Project Structure
@@ -38,6 +38,6 @@ routes-monitor/
 │   └── routes.example.json
 ├── tests/
 ├── .env.example
-├── pyproject.toml
+├── requirements.txt
 └── README.md
 ```
